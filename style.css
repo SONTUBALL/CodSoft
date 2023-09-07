@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+#top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://images.unsplash.com/photo-1519309621146-2a47d1f7103a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1773&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+#text{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    bottom: 20%;
+    width: 100%;
+    padding: 0 6vw;
+    color: white;
+}
+#textright{
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    
+}
+#textright p{
+    font-size: 13px;
+    width: 22%;
+}
+#textright i{
+    color: white;
+  
+}
+
+#text h1{
+    
+    font-size: 8vw;
+}
+
+#bottom{
+    width: 100%;
+    min-height: 40vh;
+    background-color: rgb(0, 238, 255);
+    display:flex;
+}
+
+#bone{
+    width: 25%;
+    min-height: inherit;
+    padding: 30px;
+    background-color: #fff;
+}
+#bone p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#btwo{
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#bthree{
+    width: 20%;
+    min-height: inherit;
+    background-color: aliceblue;
+    background-size: auto;
+    
+}
+#bthreetop{
+    padding: 15px;
+    width: 100%;
+    min-height: 20vh;
+    background-color: orangered;
+    color: #fff;
+}
+#bthreetop p{
+    margin-top: 10px;
+    font-size: 10px;
+}
+#bthreebottom{
+    width: 100%;
+    min-height:50%;
+    background-image: url(https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-position: center;
+    
+}
+#bfour{
+    width: 30%;
+    min-height: inherit;
+    padding: 30px;
+    background-color: #444;
+    color: white;
+    
+}
+
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsvTwPsLgvXsphnSbIj4TLE5CzzqF7ztUyjw&usqp=CAU);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.notf #photo2{
+    width: 40px;
+    height: 40px;
+    background-image: url(https://w7.pngwing.com/pngs/1022/336/png-transparent-train-rail-transport-m-indicator-mumbai-suburban-railway-public-transport-timetable-train-text-trademark-logo-thumbnail.png);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.notf p{
+    width:90%;
+    font-size: 12px;
+}
+
+@media(max-width:500px){
+    #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #bottom{
+        min-height: 20vh;
+    }
+    
+   #overlay #text #textright {
+        align-items: flex-start;
+         flex-direction: column;
+
+    }
+    #overlay #text #textright p{
+        width: initial;
+        margin-top: 20px;
+
+   }
+   #overlay #text #textright #icons{
+    
+    margin-top: 30px;
+
+}
+#bottom{
+    flex-direction: column;
+}
+#bone{
+    width: 100%;
+}
+#btwo{
+    width: 100%;
+    min-height: 40vh;
+
+}
+#bthree{
+    flex-direction: column;
+    width:100%;
+    
+}
+
+#bthreebottom{
+    min-height: 40vh;
+}
+#bthreebottom p{
+    font-size: 10vh;
+    
+}
+#bfour{
+    width: 100%;
+    min-height: 30vh;
+    
+}
+.notf p{
+    width:92%;
+    font-size: 10px;
+}
+.notf #photo{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+}
